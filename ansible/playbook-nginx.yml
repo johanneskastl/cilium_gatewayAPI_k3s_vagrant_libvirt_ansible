@@ -22,12 +22,14 @@
       # running this from vagrant fails, if we target localhost directly
       delegate_to: 'localhost'
       kubernetes.core.helm:
-        release_name: 'nginx'
         chart_ref: 'oci://registry-1.docker.io/bitnamicharts/nginx'
+        release_name: 'nginx'
         release_namespace: 'default'
         values:
           service:
             type: ClusterIP
+          tls:
+            enabled: false
           ingress:
             enabled: false
 
