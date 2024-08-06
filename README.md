@@ -12,7 +12,7 @@ role, as this is a prerequisite for using the GatewayAPI. Details can be found
 [in the
 docs](https://docs.cilium.io/en/stable/network/kubernetes/kubeproxy-free/#kubeproxy-free).
 
-Default OS is openSUSE Leap 15.5, but that can be changed in the Vagrantfile.
+Default OS is openSUSE Leap 15.6, but that can be changed in the Vagrantfile.
 Please be aware, that this might break the Ansible provisioning.
 
 ## Vagrant
