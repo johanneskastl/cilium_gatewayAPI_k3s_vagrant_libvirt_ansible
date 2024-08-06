@@ -12,4 +12,3 @@
       flannel_backend: 'none'
       disable_network_policy: true
       disable_something: 'traefik'
-      disable_kube_proxy: true
