@@ -86,7 +86,6 @@
         kind: Pod
         namespace: kube-system
       register: pod_list_ready
-      failed_when: false
       # pods with two containers show up as [true, true]
       until:
         '
